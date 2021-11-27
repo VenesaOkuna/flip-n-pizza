@@ -429,3 +429,33 @@ header .navbar a:hover{
     color:#eee;
     padding:1rem 0;
   }
+
+
+  /* ORDER FORM SECTION */
+
+
+.order .row{
+  padding:2rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  background:#fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  border-radius: .5rem;
+}
+
+.order .row .image{
+  flex:1 1 30rem;
+}
+
+.order .row .image img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+  border-radius: .5rem;
+}
+
+.order .row form{
+  flex:1 1 50rem;
+  padding:1rem;
+}
