@@ -151,3 +151,18 @@ header .navbar a:hover{
   flex:1 1 40rem;
   padding-top: 6.5rem;
 }
+
+
+/* hero image */
+
+.home .image{
+  flex:1 1 40rem;
+}
+
+.home .image img{
+  width:100%;
+  padding:1rem;
+  animation:float 5s linear infinite;
+}
+
+
