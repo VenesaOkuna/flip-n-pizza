@@ -297,3 +297,18 @@ header .navbar a:hover{
   font-size: 1.7rem;
   padding:1rem .1rem;
 }
+
+/* HOW IT WORKS STEPS */
+
+.steps{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  padding:1rem;
+}
+
+.steps .box{
+  flex:1 1 25rem;
+  padding:1rem;
+  text-align: center;
+}
