@@ -348,3 +348,40 @@ header .navbar a:hover{
   width:100%;
   object-fit: cover;
 }
+
+.gallery .box-container .box .price{
+  position: absolute;
+  top:3rem; left:3rem;
+  background:var(--green);
+  color:#fff;
+  font-size: 2rem;
+  padding:.5rem 1rem;
+  border-radius: .5rem;
+  }
+  
+  .gallery .box-container .box .content{
+    position: absolute;
+    top:-100%; left:0;
+    height: 100%;
+    width:100%;
+    background:rgba(255,255,255,.9);
+    padding:2rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  
+  .gallery .box-container .box .content h3{
+    font-size: 2.5rem;
+    color:#333;
+  }
+  
+  .gallery .box-container .box .content p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .gallery .box-container .box:hover .content{
+    top:0;
+  }
+  
