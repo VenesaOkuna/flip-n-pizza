@@ -401,23 +401,129 @@ Portobello Mushrooms are a native to North America grasslands, these are one of 
             <img src="images/delivery.jpeg" alt="">
         </div>
 
-        <form action="">
 
-            <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
-            </div>
+                <!-- order form -->
+                
 
-            <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="food name">
-            </div>
+                <table>
+        
+                    <tr>
+        
+                    <td>
+                    
+                    <form name=form>
+        
+                    <!--name  input  -->
+                    <table >
+                        <td>
+        
+                            <input id="name" type=text name=name placeholder="name.." required>
+                            </td>  
 
-            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+                    <!-- phonenumber input -->
+                    <td>
+        
+                        <input id="phonenumber" type=phonenumber name=phonenumber value="+254" size=13 maxlength=13>
+                        </td>      
+        
+                    <tr><td> 
+                    
+                    <!-- pizza type input -->
 
-            <input type="submit" value="order now" class="btn">
+                    <tr><td id="p.type" style:align=center>
+        
+                    <select name="p.type">
+                    <option value="" selected>pizza type
+                    <option value="Cheese">Cheese
+                    <option value="Veggie">Veggie
+                    <option value="Chicken">Chicken
+                    <option value="Buffalo">Buffalo
+                    <option value="BBQ Chicken">BBQ Chicken
+                    <option value="Hawaiian">Hawaiian 
 
-        </form>
+        
+                    </select>
+        
+                    </td>
+
+                    <!-- pizza size input -->
+        
+                    <td id="p.size"  type="text" required>
+        
+                        <select name="p.size">
+                        <option value="" selected>pizza size
+                        <option value="small"> small     
+                        <option value="medium"> medium
+                        <option value="large"> large
+        
+                        </select> 
+        
+                    </td>
+
+                    <!-- crust type input -->
+        
+                    <td id="crusttype"  type="text" required>
+        
+                        <select name="crusttype">
+                        <option value="" selected>crust type
+                        <option value="Crispy"> Crispy     
+                        <option value="Stuffed"> Stuffed
+                        <option value="Glutten free"> Gluten free
+        
+                        </select> 
+        
+                    </td>
+
+
+                    <!-- toppings type input -->
+        
+                    <td id="toppings"  type="text" required>
+        
+                        <select name="toppings">
+                        <option value="" selected>Toppings
+                        <option value="Pepperoni"> Pepperoni     
+                        <option value="Mushroom"> Mushroom
+                        <option value="Extra Cheese"> Extra Cheese
+                        <option value="Sausage" >Sausage
+                        <option value="Onion"> Onion     
+                        <option value="Green Pepper"> Green Pepper
+                        <option value="Tomato"> Tomato   
+                        <option value="Fresh Basil"> Fresh Basil
+                        <option value="Fresh Garlic"> Fresh Garlic                                   
+                        </select> 
+        
+                    </td>
+
+                    <!-- delivery  input -->
+        
+                    <td id="delivery"  type="text" required>
+        
+                        <select name="delivery">
+                        <option value="" selected> Delivery
+                        <option value="Deliver"> Deliver     
+                        <option value="No Delivery"> No Delivery
+                        
+        
+                        </select> 
+        
+                    </td>    
+                    
+                    <td>
+        
+                        <input id="location" type=text name=location placeholder="location..">
+                        </td>                    
+        
+
+                     
+</tr>
+                    </table><p>
+                    <input type=button id="checkout" value="check out" onClick="calculate()">
+                    
+                    </form>
+                    
+                    </td>
+                    </tr>
+                </table>
 
     </div>
 
@@ -453,42 +559,7 @@ Portobello Mushrooms are a native to North America grasslands, these are one of 
 
 
 
-
-
-
-
-
-
-
-
-<!-- scroll top button  -->
-<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
-
-<!-- loader  -->
-<div class="loader-container">
-    <img src="images/loader.gif" alt="">
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- custom js file link  -->
+<!-- JAVASCRIPT LINK  -->
 <script src="js/script.js"></script>
 
 
