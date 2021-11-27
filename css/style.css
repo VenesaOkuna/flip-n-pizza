@@ -136,3 +136,18 @@ header .navbar a:hover{
 
 
 
+.home{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  min-height: 100vh;
+  align-items: center;
+  background:url(../images/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content{
+  flex:1 1 40rem;
+  padding-top: 6.5rem;
+}
