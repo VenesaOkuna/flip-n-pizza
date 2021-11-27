@@ -476,3 +476,18 @@ header .navbar a:hover{
   border-radius: .5rem;
   width:49%;
 }
+
+.order .row form textarea{
+  width:100%;
+  resize: none;
+  height:15rem;
+}
+
+.order .row form .btn{
+  background:none;
+}
+
+.order .row form .btn:hover{
+  background:var(--red);
+}
+
