@@ -68,7 +68,7 @@ function calculate() {
   
   // invalid phone number alert
   
-  if ( phonenumber <=0 || phonenumber >14){
+  if ( phonenumber <=0 || phonenumber >12){
       alert('Please enter correct phone number')
    }
 
