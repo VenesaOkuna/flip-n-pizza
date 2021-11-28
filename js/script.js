@@ -34,3 +34,48 @@ function fadeOut(){
 window.onload = fadeOut();
 
 // end
+
+
+
+
+function calculate() {
+
+  // links
+  
+  Name = document.form.Name.value;
+
+  phonenumber = document.form.phonenumber.value;
+
+  ptype = document.form.ptype.selectedIndex;
+  ptype = document.form.ptype.options[ptype].value;
+
+  psize = document.form.psize.selectedIndex;
+  psize = document.form.psize.options[psize].value;
+
+  crusttype = document.form.crusttype.selectedIndex;
+  crusttype = document.form.crusttype.options[crusttype].value;
+
+  toppings = document.form.toppings.selectedIndex;
+  toppings = document.form.toppings.options[toppings].value;
+  
+  delivery = document.form.delivery.selectedIndex;
+  delivery = document.form.delivery.options[delivery].value;
+
+  location = document.form.location.value;
+  
+  
+
+  
+  
+  // invalid phone number alert
+  
+  if ( phonenumber <=0 || phonenumber >14){
+      alert('Please enter correct phone number')
+   }
+
+  if ( toppings == null){
+    alert('please select topping')
+  }
+  
+
+  }
