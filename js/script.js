@@ -49,9 +49,6 @@ function calculate() {
   ptype = document.form.ptype.selectedIndex;
   ptype = document.form.ptype.options[ptype].value;
 
-  psize = document.form.psize.selectedIndex;
-  psize = document.form.psize.options[psize].value;
-
   crusttype = document.form.crusttype.selectedIndex;
   crusttype = document.form.crusttype.options[crusttype].value;
 

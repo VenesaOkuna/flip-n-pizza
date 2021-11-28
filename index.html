@@ -390,7 +390,6 @@ Portobello Mushrooms are a native to North America grasslands, these are one of 
 
 <!-- ORDER SECTION -->
 
-
 <section class="order" id="order">
 
     <h1 class="heading"> <span>order</span> now </h1>
@@ -401,133 +400,104 @@ Portobello Mushrooms are a native to North America grasslands, these are one of 
             <img src="images/delivery.jpeg" alt="">
         </div>
 
+        <form action="" name="form">
 
-                <!-- order form -->
+            <div class="inputBox">
+                <input id="Name" type=text name=Name placeholder="name.." required>
+                <input id="phonenumber" type=phonenumber name=phonenumber value="+254" size=13 maxlength=13>
+            </div>
+
+            <div class="inputBox">
                 
+                <!-- pizza type -->
+                <p id="ptype" style="border: 1px solid grey; padding: 1em; margin-bottom: 1em; width: 32.9em;" type= "number"  required>
+                    <select name="ptype" >
+                        <option value="" selected> pizza type
+                        <option value="400">small Cheese 400/=
+                        <option value="400"> small Veggie 400/=
+                        <option value="600">small Chicken 600/=
+                        <option value="500">small Buffalo 500/=
+                        <option value="650">small BBQ Chicken 650/=
+                        <option value="600">small Hawaiian 600/=
 
-                <table>
-        
-                    <tr>
-        
-                    <td>
-                    
-                    <form name=form>
-        
-                    <!--name  input  -->
-                    <table >
-                        <td>
-        
-                            <input id="Name" type=text name=Name placeholder="name.." required>
-                            </td>  
+                        <option value="1000">medium Cheese 1000/=
+                        <option value="1000">medium Veggie 1000/=
+                        <option value="1300">medium Chicken 1300/=
+                        <option value="1350">medium Buffalo 1350/=
+                        <option value="1450">medium BBQ Chicken 1450/=
+                        <option value="1400">medium Hawaiian 1400/=
 
-                    <!-- phonenumber input -->
-                    <td>
-        
-                        <input id="phonenumber" type=phonenumber name=phonenumber value="+254" size=13 maxlength=13>
-                        </td>      
-        
-                    <tr><td> 
-                    
-                    <!-- pizza type input -->
-
-                    <tr><td id="ptype" style:align=center  required>
-        
-                    <select name="ptype">
-                    <option value="" selected>pizza type
-                    <option value="Cheese">Cheese
-                    <option value="Veggie">Veggie
-                    <option value="Chicken">Chicken
-                    <option value="Buffalo">Buffalo
-                    <option value="BBQ Chicken">BBQ Chicken
-                    <option value="Hawaiian">Hawaiian 
-
-        
-                    </select>
-        
-                    </td>
-
+                        <option value="1500">large Cheese 1500/=
+                        <option value="1500">large Veggie 1500/=
+                        <option value="1800">large Chicken 1800/=
+                        <option value="1850">large Buffalo 1850/=
+                        <option value="1950">large BBQ Chicken 1950/=
+                        <option value="1900">large Hawaiian 1900/=
+                        </select>
+                </p>
                     <!-- pizza size input -->
         
-                    <td id="psize"  type="text" required>
-        
-                        <select name="psize">
-                        <option value="" selected>pizza size
-                        <option value="small"> small     
-                        <option value="medium"> medium
-                        <option value="large"> large
-        
-                        </select> 
-        
-                    </td>
-
-                    <!-- crust type input -->
-        
-                    <td id="crusttype"  type="text" required>
+                    <p id="crusttype"  type="number" style="border: 1px solid grey; padding: 1em; margin-bottom: 1em; width: 32.9em;" required>
         
                         <select name="crusttype">
-                        <option value="" selected>crust type
-                        <option value="Crispy"> Crispy     
-                        <option value="Stuffed"> Stuffed
-                        <option value="Glutten free"> Gluten free
+                        <option value="" selected>crust type 
+                        <option value="100"> crispy 100/=  
+                        <option value="200"> stuffed 200/=
+                        <option value="200"> glutten free 200/=
         
                         </select> 
         
-                    </td>
+                    </p>
+            </div>
 
+            <div class="inputBox">
 
                     <!-- toppings type input -->
         
-                    <td id="toppings"  type="text" required>
+                    <p id="toppings"  type="number" style="border: 1px solid grey; padding: 1em; margin-bottom: 1em; width: 32.9em;" required>
         
                         <select name="toppings">
                         <option value="" selected>Toppings
-                        <option value="Pepperoni"> Pepperoni     
-                        <option value="Mushroom"> Mushroom
-                        <option value="Extra Cheese"> Extra Cheese
-                        <option value="Sausage" >Sausage
-                        <option value="Onion"> Onion     
-                        <option value="Green Pepper"> Green Pepper
-                        <option value="Tomato"> Tomato   
-                        <option value="Fresh Basil"> Fresh Basil
-                        <option value="Fresh Garlic"> Fresh Garlic                                   
+                        <option value="150"> Pepperoni 150/=    
+                        <option value="100"> Mushroom 100/=
+                        <option value="100"> Extra Cheese 100/=
+                        <option value="150" >Sausage 150/=
+                        <option value="50"> Onion 50/=    
+                        <option value="50"> Green Pepper 50/=
+                        <option value="70"> Tomato 70/=
+                        <option value="50"> Fresh Basil 50/=
+                        <option value="50"> Fresh Garlic 50/=                               
                         </select> 
         
-                    </td>
-
+                    </p>
                     <!-- delivery  input -->
         
-                    <td id="delivery"  type="text" required>
+                    <p id="delivery"  type="number" style="border: 1px solid grey; padding: 1em; margin-bottom: 1em; width: 32.9em;"  required>
         
                         <select name="delivery">
                         <option value="" selected> Delivery
-                        <option value="Deliver"> Deliver     
-                        <option value="No Delivery"> No Delivery
+                        <option value="250"> Deliver 250/=    
+                        <option value="0"> No Delivery FREE
                         
         
                         </select> 
         
-                    </td>    
-                    
-                    <td>
-        
-                        <input id="location" type="text" name=location placeholder="location..">
-                        </td>                    
-        
+                    </p>    
+            </div>
 
-                     
-</tr>
-                    </table><p>
-                    <input type=button id="checkout" value="check out" onClick="calculate()">
-                    
-                    </form>
-                    
-                    </td>
-                    </tr>
-                </table>
+
+
+            <textarea placeholder="address" name="" id="" cols="30" rows="10" style="border: 1px solid grey; padding: 1em; margin-bottom: 1em; width: 39em;" ></textarea>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
 
     </div>
 
 </section>
+
+<!-- order section ends -->
 
 <!-- FOOTER SECTION -->
 
