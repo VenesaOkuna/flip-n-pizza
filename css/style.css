@@ -1,13 +1,18 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap'); */
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
+
+/* main colors */
 :root{
   --red:#ff3838;
   --green:#355E3B;
 }
 
+/* whole document */
 *{
   font-family: 'Nunito', sans-serif;
-  margin:0; padding:0;
+  margin:0; 
+  padding:0;
   box-sizing: border-box;
   outline: none; border:none;
   text-decoration: none;
@@ -51,6 +56,7 @@ section{
   color:grey;
 }
 
+/* red color */
 .heading span{
   color:var(--red);
 }
@@ -72,7 +78,8 @@ section{
 .btn::before{
   content: '';
   position: absolute;
-  top:0; right: 0;
+  top:0; 
+  right: 0;
   width:0%;
   height:100%;
   background:var(--red);
